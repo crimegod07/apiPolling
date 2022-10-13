@@ -4,7 +4,7 @@
   "description": "\"Polling-Api\"",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon index.js json-server db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "\"AshishPal\"",
@@ -14,7 +14,5 @@
     "mongoose": "^6.1.8",
     "nodemon": "^2.0.15"
   }
-  "scripts": {
-  "start": "json-server db.json"
-}
+ 
 }
